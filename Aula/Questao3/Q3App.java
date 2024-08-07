@@ -1,5 +1,3 @@
-package Questao3;
-
 import java.util.Scanner;
 
 public class Q3App {

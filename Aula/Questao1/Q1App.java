@@ -1,4 +1,4 @@
-package Questao1;
+
 
 public class Q1App {
     public static void main(String[] args) {
