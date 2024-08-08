@@ -5,12 +5,18 @@ public abstract class Passageiro {
     protected String nome;
     protected int idade;
 
-    public Passageiro(String nome, int idade) { //construtor
+    public Passageiro(String nome, int idade) { // Construtor
         this.nome = nome;
         this.idade = idade;
     }
 
+    // Método para obter a tarifa, padrão definido na classe base
     public float getTarifa() {
         return (float) TARIFA_INTEIRA;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + ", Idade: " + idade + ", Tarifa: " + getTarifa();
     }
 }
