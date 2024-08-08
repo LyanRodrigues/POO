@@ -1,16 +1,16 @@
 package ProvaSuficiencia.Questao1;
 
-public class Passageiro {
-    String nome;
-    int idade;
+public abstract class Passageiro {
+    protected static final double TARIFA_INTEIRA = 5.00;  // Atributo de classe
+    protected String nome;
+    protected int idade;
 
-    public float getTarifa(){
-        return idade;
-    }
-
-    public Passageiro(String nome, int idade) {
+    public Passageiro(String nome, int idade) { //construtor
         this.nome = nome;
         this.idade = idade;
     }
-    
+
+    public float getTarifa() {
+        return (float) TARIFA_INTEIRA;
+    }
 }
