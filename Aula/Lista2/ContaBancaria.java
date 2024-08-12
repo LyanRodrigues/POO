@@ -53,5 +53,7 @@ public class ContaBancaria {
         nova.status();
         nova.sacar(50);
         nova.status();
+
+        teclado.close();
     }
 }

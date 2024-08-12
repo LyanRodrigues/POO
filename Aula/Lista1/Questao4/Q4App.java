@@ -1,4 +1,4 @@
-package Aula.Questao4;
+package Aula.Lista1.Questao4;
 
 import java.util.Scanner;
 
