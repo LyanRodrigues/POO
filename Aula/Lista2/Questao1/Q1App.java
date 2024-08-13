@@ -1,8 +1,8 @@
-package Aula.Lista2.Questao4;
+package Aula.Lista2.Questao1;
 
 import java.util.Scanner;
 
-public class Q4App {
+public class Q1App {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         Pessoa[] pessoas = new Pessoa[3];

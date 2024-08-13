@@ -1,4 +1,4 @@
-package Aula.Lista2.Questao4;
+package Aula.Lista2.Questao1;
 
 public class Pessoa {
     private String nome;
