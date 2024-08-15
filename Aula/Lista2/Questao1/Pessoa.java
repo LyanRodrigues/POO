@@ -28,6 +28,9 @@ public class Pessoa {
     }
 
     public void setAltura(double altura) {
+        if(altura > 3){
+            throw new IllegalArgumentException("Altura inválida.");
+        }
         this.altura = altura;
     }
 
@@ -36,6 +39,9 @@ public class Pessoa {
     }
 
     public void setPeso(double peso) {
+        if(peso < 0){
+            throw new IllegalArgumentException("Peso inválido.");
+        }
         this.peso = peso;
     }
 }

@@ -29,6 +29,7 @@ public class App {
             System.out.println("Titular: "+ contas[i].getTitular()
             +"\nSaldo: "+ contas[i].getSaldo());
         }
+        tec.close();
 
     }
 }
