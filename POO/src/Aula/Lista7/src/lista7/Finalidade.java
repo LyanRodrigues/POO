@@ -1,15 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
- */
 package lista7;
 
 /**
- *
- * @author liandrar
+ * Enum representing the different purposes (Finalidade) a property (Imóvel) can have.
+ * The purposes are:
+ * <ul>
+ *     <li>RESIDENCIAL: For residential properties</li>
+ *     <li>COMERCIAL: For commercial properties</li>
+ *     <li>INDUSTRIAL: For industrial properties</li>
+ * </ul>
+ * Each purpose affects the IPTU tax calculation differently.
  */
 public enum Finalidade {
-    RESIDENCIAL,
-    COMERCIAL,
-    INDUSTRIAL;
+    RESIDENCIAL,  // Property used for residential purposes
+    COMERCIAL,    // Property used for commercial purposes
+    INDUSTRIAL;   // Property used for industrial purposes
 }
